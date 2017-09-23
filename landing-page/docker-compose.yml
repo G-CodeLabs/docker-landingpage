@@ -1,0 +1,6 @@
+front-end:
+  image: greyltc/lamp
+  ports:
+    - 80:80
+  volumes:
+    - ./code:/srv/http
