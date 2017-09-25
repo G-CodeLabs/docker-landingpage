@@ -1,0 +1,2 @@
+sudo chown -R root ~/sslKeys; sudo chgrp -R root ~/sslKeys
+chmod 400 ~/sslKeys/server.key

@@ -4,18 +4,217 @@
 	<meta charset="UTF-8">
 	<title>Glosbe Labs</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 	<link rel="stylesheet" href="assets/main.css">
 </head>
 <body>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-12 gap">
-				<h1 class="text-center font ">Glosbe Labs</h1>
-				<p class="text-center">SITIO EN CONSTRUCCION!!</p>
-				<img src="https://cdn.dribbble.com/users/50886/screenshots/2710024/coding.gif" class="center-block img-responsive" alt="">
+			<div class="col-md-12 capa"></div>
+			<div class="col-md-12 back">
+			<nav class="navbar fixed-top navbar-light bg-faded">
+			  <a class="text-glosbe navbar-brand " href="#">GLOSBELABS</a>
+			  <a class="text-glosbe-light pull-right" href="#">Lab</a>
+			  <a class="text-glosbe-light pull-right" href="#">demos</a>
+			  <a class="text-glosbe-light pull-right" href="#">projects</a>
+			  <a class="text-glosbe-light pull-right" href="#">solutions</a>
+			  <a class="text-glosbe-light pull-right" href="#">Who we are</a>
+			</nav>
+				<div class="gap">
+					<h1 class="text-center">BUILDING GREAT</h1>
+					<h1 class="text-center">WEBSITES, APPS, CODE </h1>
+					<h1 class="text-center">GLOSBELABS</h1>
+				</div>
 			</div>
+			<div class="col-md-12">
+				<div class="croptext">
+					<h2 class="text-center">WHO WE ARE</h2>
+					<hr>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="croptext">
+					<h2 class="text-center">SOLUTIONS</h2>
+					<hr>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="croptext">
+					<h2 class="text-center">PROJECTS</h2>
+					<hr>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="croptext">
+					<h2 class="text-center">DEMOS</h2>
+					<hr>
+				</div>
+			</div>
+
+			<div class="col-md-12 lastback">
+				<div class="croptext">
+					<h2 class="text-center">LABS</h2>
+					<hr>
+				</div>
+				<div id="particlesjs"></div>
+			</div>
+			<footer class="col-md-12">
+
+				<div class="col-md-2 col">
+					<h5 >our platform</h5>
+					<p><small>lorem</small></p>
+					<p><small>ipsum</small></p>
+					<p><small>dolo</small></p>
+				</div>
+				<div class="col-md-2 col">
+					<h4 >solutions</h5>
+					<p><small>lorem</small></p>
+					<p><small>ipsum</small></p>
+					<p><small>dolo</small></p>
+				</div>
+				<div class="col-md-2 col">
+					<h4 >demos</h5>
+					<p><small>lorem</small></p>
+					<p><small>ipsum</small></p>
+					<p><small>dolo</small></p>
+				</div>
+				<div class="col-md-2 col">
+					<h4 >about</h5>
+					<p><small>lorem</small></p>
+					<p><small>ipsum</small></p>
+					<p><small>dolo</small></p>
+				</div>
+				<div class="col-md-8 social">
+					<hr>
+					<img src="assets/img/fb.png" alt="" class="col-md-2">
+					<img src="assets/img/tw.png" alt="" class="col-md-2">
+					<img src="assets/img/in.png" alt="" class="col-md-2">
+					<img src="assets/img/ins.png" alt="" class="col-md-2">
+					<p class="social pull-right">Follow os in our social networks!</p>
+				</div>
+				<div class="col-md-12">
+					<hr>
+					<p class="text-center">developed with <label id="love-text">< love/></label> by <strong id="glosbe-text">#glosbe</strong></p>
+				</div>
+			</footer>
 		</div>
 	</div>
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+	<script>
+		
+particlesJS("particlesjs", {
+  "particles": {
+    "number": {
+      "value": 250,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 140,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 4,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+
+
+	</script>
 </body>
 </html>

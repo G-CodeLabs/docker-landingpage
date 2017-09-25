@@ -1,10 +1,73 @@
 body{
-	background: #B1C0CB;
+    background: #fff;
 }
-.gap{
-	margin-top: 100px;
+.capa{
+	background: url('https://i.pinimg.com/originals/a9/1b/ff/a91bfff1912500fae136d88f6113fc30.jpg');  /* fallback for old browsers */
+	background-size: cover;
+	height: 1000px;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 74%, 50% 100%, 0 74%);
+	clip-path: polygon(0 0, 100% 0, 100% 74%, 50% 100%, 0 74%);
+	position: absolute;
+}
+
+.back{
+	opacity: 0.9;
+	background: -webkit-linear-gradient(to top, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, rgba(25, 87, 179, 0.95), #943691, rgb(162, 140, 140));
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 74%, 50% 100%, 0 74%);
+	clip-path: polygon(0 0, 100% 0, 100% 74%, 50% 100%, 0 74%);
+	height: 1000px;
+}
+
+.lastback{
+    background: linear-gradient(to top, rgba(20, 1, 80, 0.78), rgba(143, 195, 237, 0.38), rgb(255, 255, 255));
+	height: 1200px;
 }
 .font{
 	font-size: 150px;
 	font-family: 'Playfair Display', serif;
 }
+.gap{
+	color: #fff;
+	font-family: 'Anton', sans-serif;
+	margin-top: 200px;
+}
+.gap h1{
+	font-size: 80px;
+	margin-top: -10px;
+}
+.text-glosbe-light{
+	padding: 15px;
+	margin-top: 30px;
+	margin-right: 50px;
+	color: #fff!important;
+	text-transform: uppercase;
+}
+.text-glosbe{
+	padding: 15px;
+	margin: 30px;
+	color: #fff!important;
+	font-family: 'Anton', sans-serif;	
+}
+footer{color: #fff;background: #000;}
+footer hr{border-top: 1px solid #797474;}
+.col{padding: 20px;text-transform: uppercase;}
+.col p small{color: #797474;}
+#love-text{	color: #ca4747;}
+#glosbe-text{color: #6f6f79;}
+.social p{padding: 10px;color: #797474;}
+.social img{width: 70px;margin-left: 30px;}
+#particlesjs{margin-top: 100px;}
+.croptext h2{
+	margin-top: 50px;
+	font-family: 'Anton', 
+	sans-serif;font-size: 100px;
+}
+.croptext hr{
+	text-align: center;
+	width: 100px;
+	border-top: 3px solid #000;
+	transition: all .2s ease-in;
+}
+.croptext:hover hr{width: 250px;}
+.croptext:hover h2{color: #822f2f;}
