@@ -61,7 +61,9 @@ footer hr{border-top: 1px solid #797474;}
 #glosbe-text{color: #6f6f79;}
 .social p{padding: 10px;color: #797474;}
 .social img{width: 70px;margin-left: 30px;}
-#particlesjs{margin-top: 100px;}
+.particles-js-canvas-el{
+	margin-top: -200px;
+}
 .croptext h2{
 	margin-top: 50px;
 	font-family: 'Anton', 
@@ -134,19 +136,41 @@ footer hr{border-top: 1px solid #797474;}
 .brain-glosbe{
 	position: absolute; 
 	z-index: 10000; 
-	margin-top: -10%;
-	width: 40%;
+	width: 550px;
+}
+#imgg{
+top: -70%;
+-webkit-clip-path: polygon(18% 31%, 39% 31%, 68% 100%, 72% 100%, 43% 30%, 55% 30%, 86% 100%, 48% 100%);
+clip-path: polygon(18% 31%, 39% 31%, 68% 100%, 72% 100%, 43% 30%, 55% 30%, 86% 100%, 48% 100%);
 }
 
-.brain-glosbe:hover {
-	-webkit-animation: swing 1s ease;
-	animation: swing 1s ease;
-	-webkit-animation-iteration-count: 1;
-	animation-iteration-count: 1;
+@media screen (max-width: 699px) and (min-width: 480px) {
+	.brain-glosbe{
+		position: absolute; 
+		z-index: 10000; 
+	}
+    #imgg {
+		width: 50px!important;
+        top: -0%!important;
+        -webkit-clip-path: polygon(18% 31%, 39% 31%, 68% 100%, 72% 100%, 43% 30%, 55% 30%, 86% 100%, 48% 100%);
+		clip-path: polygon(18% 31%, 39% 31%, 68% 100%, 72% 100%, 43% 30%, 55% 30%, 86% 100%, 48% 100%);
+    }
+}
+
+@media screen (max-width: 1200px) and (min-width: 800px) {
+	.brain-glosbe{
+		position: absolute; 
+		z-index: 10000; 
+		width: 150px;
+	}
+    #imgg {
+        top: -10%;
+    }
 }
 .img-card{
 	margin: 0 auto;
 }
+
 .card{
 	transition: all .2s ease-out;
 	padding: 10px;
