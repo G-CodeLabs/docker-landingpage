@@ -1,6 +1,7 @@
 @import url("css/keyframes.css");
 
 body{
+	overflow-x: hidden;
     background: #fff;
 }
 .capa{
@@ -87,7 +88,7 @@ footer hr{border-top: 1px solid #797474;}
 #angle-1 {
 	width: 20%; 
 	margin-left: 10%;
-	height: 18vw; 
+	height: 30vh; 
 	background: white;
 	-webkit-transform: skew(30deg);
 	-moz-transform: skew(30deg);
@@ -97,9 +98,9 @@ footer hr{border-top: 1px solid #797474;}
 }
 
 #angle-2 {
-     width: 10%; 
-     margin-left: 100%;
-     height: 18vw; 
+     width: 15%; 
+     margin-left: 111%;
+     height: 75vw; 
      background: white;
      -webkit-transform: skew(30deg);
      -moz-transform: skew(30deg);
@@ -134,7 +135,7 @@ footer hr{border-top: 1px solid #797474;}
 	position: absolute; 
 	z-index: 10000; 
 	margin-top: -10%;
-	width: 40%
+	width: 40%;
 }
 
 .brain-glosbe:hover {
@@ -217,6 +218,6 @@ section {
   height: 15vw;
 }
 
-.github {
-	margin-right: 5vw;
+.github,.linkedin {
+	margin:0 auto;
 }
