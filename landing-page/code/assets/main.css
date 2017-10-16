@@ -170,6 +170,7 @@ clip-path: polygon(18% 31%, 39% 31%, 68% 100%, 72% 100%, 43% 30%, 55% 30%, 86% 1
 .img-card{
 	margin: 0 auto;
 }
+
 .card{
 	transition: all .2s ease-out;
 	padding: 10px;
